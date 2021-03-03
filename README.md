@@ -7,6 +7,11 @@
 
 
 
+## Preprocessing
+
+* wav_preprocessing.ipynb: This code walks over the wav files and change their sample rate in order to unify the sampling rate across all the files.
+* prepreocessing.ipynb: This code joins and clean the dataset in addition to make the train-test split.
+
 ### DeepSpeech Training
 DeepSpeech is an online API for easier utiliziation of the DeepSpeech architecture. Here are the training inputs:
 - CSV files containing the path of the audio files and the transecription of each utterance
