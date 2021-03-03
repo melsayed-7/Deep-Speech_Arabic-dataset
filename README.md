@@ -8,4 +8,10 @@
 
 
 ### DeepSpeech Training
-DeepSpeech is an online API for easier utiliziation of the DeepSpeech architecture. here is the training
+DeepSpeech is an online API for easier utiliziation of the DeepSpeech architecture. Here are the training inputs:
+- CSV files containing the path of the audio files and the transecription of each utterance
+- alphabet.txt containing all the unique characters used in the dataset.
+- paths for checkpoints, model, and summary (for tensorboardX).
+- optional flags to set hyperparameters.
+
+
