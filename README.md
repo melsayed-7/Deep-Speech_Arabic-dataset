@@ -14,4 +14,6 @@ DeepSpeech is an online API for easier utiliziation of the DeepSpeech architectu
 - paths for checkpoints, model, and summary (for tensorboardX).
 - optional flags to set hyperparameters.
 
+Here is the training loss on tensorboard with smoothing set to 0.999 as the training had a lot of fluctuations (due to deepSpeech starts with a loss and accumlates with time giving it this periodical shape)
 
+![image](./train'.png)
